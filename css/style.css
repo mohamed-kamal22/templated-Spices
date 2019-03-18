@@ -1,0 +1,1232 @@
+
+
+/* ---------- > Header <---------- */
+
+header
+{
+    height: 450px;
+    background-image: linear-gradient(rgba(26, 24, 24, 0.25), rgba(22, 12, 12, 0.25)), url(../img/1.png);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+header .top
+{
+    color: #FFF;
+    font-size: 1.23rem;
+    padding-top: 5px;
+    text-transform: capitalize;
+}
+
+header i.icon 
+{
+    position: absolute;
+    left: 30px;
+    top: 90px;
+    cursor: pointer;
+    z-index: 10;
+    display: none;
+}
+
+header .head
+{
+    padding-top: 5px;
+    text-align: right;
+}
+
+header .head input
+{
+    background: none;
+    border: unset;
+}
+
+header .head input::placeholder
+{
+    padding: 5px 0 5px 5px;
+    color: rgb(199, 194, 194);
+}
+
+header .head i
+{
+    color: #FFF;
+    margin-left: 10px;
+}
+
+header .head i:last-of-type
+{
+    margin-left: 25px;
+}
+
+header .head-nav
+{
+    background-color: rgba(188, 190, 189, .8);
+    display: flex;
+    justify-content: space-between;
+}
+
+header .head-nav h1
+{
+    font-family: 'Gloria Hallelujah', cursive;
+}
+
+header .head-nav h1 span
+{
+    color: #ee0e0e;
+}
+
+header .head-nav nav ul
+{
+    list-style: none;
+    padding-top: 19px;
+    text-align: center;
+    transition: all 0.5s ease-in-out;
+}
+
+header .head-nav nav ul li
+{
+    display: inline-block;
+    margin-left: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #000;
+    font-size: .8rem;
+}
+
+header .head-nav nav ul li:hover
+{
+    -webkit-transform: scale(1.2,1.2);
+    -moz-transform: scale(1.2,1.2);
+    -ms-transform: scale(1.2,1.2);
+    -o-transform: scale(1.2,1.2);
+    transform: scale(1.2,1.2);  
+}
+
+header .head-nav .cart
+{
+    display: inline-block;
+    background: #CC444A;
+    border-radius: 15px;
+    margin-top: 10px;
+}
+
+header .head-nav select
+{
+    background: unset;
+    outline: none;
+    margin-top: 13px;
+    margin-right: 20px;
+    text-transform: capitalize;
+}
+
+header .head-nav select option
+{
+    background: #dddada;
+}
+
+
+header .head-nav .cart p
+{
+    display: inline-block;
+    margin-bottom: 0;
+    padding: 5px 10px 5px 0;
+    font-size: .9rem;
+    color: #FFF;
+}
+
+header .head-nav .cart p a
+{
+    text-decoration: none;
+    color: #FFF
+}
+
+header .head-nav .cart i
+{
+    color: #fff;
+    padding-right: 10px;
+    font-size: large;
+    padding: 10px;
+}
+
+header .head-nav .cart i:after
+{
+    content: "|";
+    padding-left: 10px;
+    color: #DDD;
+}
+
+header .title
+{
+    margin-top: 150px;
+}
+
+header .title h2
+{
+    font-size: 4rem;
+    color: #fff;
+    font-weight:bold; 
+    text-transform: capitalize;
+}
+
+header .title p
+{
+    font-size: 3rem;
+    font-weight: 100;
+    letter-spacing: 2px;
+    font-family: 'Quicksand', sans-serif;
+    color: #FFF;
+    text-transform: capitalize;
+}
+
+
+/* ---------- > Header <---------- */
+
+/* ---------- > Main <---------- */
+
+main .categ-title p
+{
+    margin-top: 30px;
+    font-size: 25px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+main .categories .item
+{
+    border: 1px solid #DDD;
+    transition: all 0.6s ease-in-out;
+}
+
+main .categories .item .data
+{
+    border-top: 1px solid #DDD;
+}
+
+main .categories .item .data h4
+{
+    margin-top: 15px;
+    text-transform: capitalize;
+}
+
+main .categories .item .data button
+{
+    border: 1px solid #ca0606;
+    border-radius: 15px;
+    margin: 10px 0;
+    padding: 5px 15px;
+    background: none;
+    color: #ca0606;
+    cursor: pointer;
+    outline: none;
+    text-transform: uppercase;
+    font-size: .8rem;
+}
+
+main .categories .item .data button:hover
+{
+    color: #FFF;
+    background: #ca0606;
+}
+
+main .categories .item .img img
+{
+    width: 100%;
+}
+
+main .categories .item:hover
+{
+    -webkit-transform: scale(1.1,1.1);
+    -moz-transform: scale(1.1,1.1);
+    -ms-transform: scale(1.1,1.1);
+    -o-transform: scale(1.1,1.1);
+    transform: scale(1.1,1.1);   
+}
+
+main .healthy
+{
+    margin-top: 50px;
+}
+
+main .healthy .back
+{
+    height: 300px;
+    transition: all .7s ease-in-out;
+}
+
+main .healthy .back:hover
+{
+    -webkit-transform: scale(1.1,1.1);
+    -moz-transform: scale(1.1,1.1);
+    -ms-transform: scale(1.1,1.1);
+    -o-transform: scale(1.1,1.1);
+    transform: scale(1.1,1.1);  
+}
+
+main .healthy .back-2
+{
+    height: 400px;
+    transition: all .7s ease-in-out;
+}
+
+main .healthy .back-2:hover
+{
+    -webkit-transform: scale(1.1,1.1);
+    -moz-transform: scale(1.1,1.1);
+    -ms-transform: scale(1.1,1.1);
+    -o-transform: scale(1.1,1.1);
+    transform: scale(1.1,1.1);  
+}
+
+main .healthy .fresh
+{
+    background-image: url(../img/9.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    overflow: hidden;
+}
+
+main .healthy .fresh .fresh-data
+{
+    width: 50%;
+    float: right;
+    margin-top: 35px;
+}
+
+main .healthy .fresh .fresh-data h4
+{
+    margin-bottom: 0;
+}
+
+main .healthy .fresh .fresh-data p
+{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+main .healthy .fresh .fresh-data a
+{
+    text-decoration: underline;
+    color: #f00;
+    font-size: .8rem;
+    position: relative;
+    animation: move 2s infinite linear;
+}
+
+main .healthy .fresh-2
+{
+    background-image: url(../img/7.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+}
+
+main .healthy .fresh-3
+{
+    background-image: url(../img/8.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    position: relative;
+    bottom: 70;
+}
+
+main .healthy .fresh-4
+{
+    background-image: url(../img/6.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    position: relative;
+    top: 30px;
+}
+
+main .healthy .fresh-4 .contain
+{
+    width: 50%;
+    padding: 50px 0 0 35px;
+}
+
+main .healthy .fresh-4 .contain h4
+{
+    margin-bottom: 0;
+}
+
+main .healthy .fresh-4 .contain p
+{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+main .healthy .fresh-4 .contain a
+{
+    text-decoration: underline;
+    color: #f00;
+    font-size: .8rem;
+    position: relative;
+    animation: move 2s infinite linear;
+}
+
+.product .product-title h2
+{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.product .owl-carousel .item-info
+{
+    border: 1px solid #DDD;
+    overflow: hidden;
+    transition: all 0.2s ease-in-out;
+}
+
+.product .owl-carousel .item-info:hover
+{
+    -webkit-transform: translateY(10px);
+    -moz-transform: translateY(10px);
+    -ms-transform: translateY(10px);
+    -o-transform: translateY(10px);
+    transform: translateY(10px);   
+}
+
+.product .owl-carousel .item .item-data
+{
+    margin-top: 10px;
+}
+
+.product .owl-carousel .item .item-data p
+{
+    margin-bottom: 5px;
+    color: #a59e9e;
+}
+
+.product .owl-carousel .item .item-data span
+{
+    color: #f00;
+    display: inline-block;
+}
+
+.product .owl-carousel .item .item-data s
+{
+    color: rgb(156, 146, 146);
+}
+
+.product .owl-carousel .item .icon-item
+{
+    width: 35%;
+    float: left;
+    font-size: .7rem;
+    margin: 10px 0 13px 10px;
+}
+
+
+.product .owl-carousel .item .icon-item .checked
+{
+    color: orange;
+}
+
+.fa-star-o:before
+{
+    color: orange;
+}
+
+.product .owl-carousel .item .perc
+{
+    float: right;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    text-align: right;
+    font-size: .7rem;
+    margin-bottom: 0;
+    margin: 10px 10px 0 0;
+    background: orange;
+    color: #FFF;
+    text-align: center;
+    padding-top: 5px;
+}
+
+main .team
+{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+main .team .team-title
+{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 450;
+    text-transform: capitalize;
+    margin: 40px 0;
+    text-decoration: underline
+}
+
+.team-data .team-info
+{
+    margin-bottom: 20px;
+    text-transform: capitalize;
+    color: #b3abab;
+}
+
+.team .team-data
+{
+    overflow: hidden;
+}
+
+.team .team-data .team-img
+{
+    float: right;
+    width: 50%;
+    margin-bottom: 5px;
+    transition: all 0.5s ease-in-out;
+}
+
+.team .team-data .team-img img
+{
+    border-radius: 50%;
+}
+
+.team .team-data .team-img:hover
+{
+    -webkit-transform: scale(1.1,1.1);
+    -moz-transform: scale(1.1,1.1);
+    -ms-transform: scale(1.1,1.1);
+    -o-transform: scale(1.1,1.1);
+    transform: scale(1.1,1.1);   
+}
+
+.team .team-data .team-name
+{
+    float: left;
+    width: 50%;
+    margin-top: 40px;
+    padding-left: 40px;
+    text-transform: capitalize;
+    font-size: .9rem;
+}
+
+.news
+{
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.news .news-head
+{
+    margin-bottom: 30px;
+}
+
+.news .news-data
+{
+    overflow: hidden;
+}
+
+.news .news-data .news-img
+{
+    float: left;
+    width: 40%;
+    margin-bottom: 30px;
+}
+
+.news .news-data .news-read
+{
+    float: right;
+    width: 55%;
+}
+
+.news .news-data .news-read p
+{
+    text-transform: uppercase;
+    font-weight: 450;
+}
+
+.news .news-data .news-read span
+{
+    text-transform: capitalize;
+    color: #b3abab;
+    font-size: .8rem;
+}
+
+.news .news-data .news-read a
+{
+    display: block;
+    margin-top: 30px;
+    color: #CC444A;
+    text-decoration: underline;
+    text-transform: uppercase;
+    font-size: .8rem;
+}
+
+.news .news-data .news-img > img
+{
+    width: 100%;
+}
+
+.news .sale
+{
+    background-image: url(../img/22.png);
+    background-size: cover;
+    height: 430px;
+    margin-top: 20px;
+    padding: 30px;
+
+}
+
+.news .sale .item-sale
+{
+    width: auto;
+    height: 375px;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.8);
+
+}
+
+.news .item-sale .sale-data
+{
+    padding: 35px 0 0 35px;
+    font-family: 'Quicksand', sans-serif;
+    text-transform: capitalize;
+    overflow: hidden;
+
+}
+
+.news .item-sale .sale-data h2
+{
+    font-weight: bold;
+}
+
+.news .item-sale .sale-data p
+{
+    font-size: 1.7rem;
+}
+
+.news .item-sale .product
+{
+    overflow: hidden;
+    padding: 0 40px;
+}
+
+.news .item-sale .product button
+{
+    float: left;
+    margin-top: 30px;
+    padding: 5px 0;
+    cursor: pointer;
+    color: rgb(226, 14, 14);
+    background: none;
+    width: 110px;
+    border: 1px solid red;
+    border-radius: 20px;
+    outline: none;
+    text-transform: uppercase;
+    font-size: .8rem;
+    font-weight: bold;
+}
+
+.news .item-sale .product button:hover
+{
+    color: #FFF;
+    background: red;
+}
+
+.news .item-sale .product img
+{
+    float: right;
+    width: 120px;
+    transition: all .7s ease-in-out;
+}
+
+.news .item-sale .product img:hover
+{
+    -webkit-transform: scale(1.2,1.2);
+    -moz-transform: scale(1.2,1.2);
+    -ms-transform: scale(1.2,1.2);
+    -o-transform: scale(1.2,1.2);
+    transform: scale(1.2,1.2);  
+}
+
+.Sponsors
+{
+    background-image: url(../img/25.png);
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+}
+
+main .letter
+{
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+main .letter h4
+{
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+
+main .letter form input
+{
+    border: 0;
+    border-bottom: 1px solid #DDD;
+    width: 50%;
+    text-align: center;
+    padding-bottom: 15px;
+    outline: none;
+}
+
+main .letter form input::placeholder
+{
+    color: #a59e9e;
+}
+
+
+main .letter button
+{
+    background: #ee0e0e;
+    color: #FFF;
+    text-transform: uppercase;
+    border: 0;
+    border-radius: 20px;
+    padding: 5px 15px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: all .7s ease-in-out;
+}
+
+main .letter button:hover
+{
+    background: #000;
+    -webkit-transform: scale(1.1,1.1);
+    -moz-transform: scale(1.1,1.1);
+    -ms-transform: scale(1.1,1.1);
+    -o-transform: scale(1.1,1.1);
+    transform: scale(1.1,1.1);   
+}
+
+
+/* ---------- > Main <---------- */
+
+
+/* ---------- > footer <---------- */
+
+
+footer
+{
+    background: #000;
+    display: flex;
+}
+
+footer .col-md-3
+{
+    padding: 0;
+}
+
+footer .contacts 
+{
+    padding: 30px 0;
+    font-size: .8rem;
+    border: 1px solid ;
+}
+
+footer .contacts p
+{
+    color: #a59e9e
+}
+
+footer .contacts span
+{
+    color: #CC444A;
+}
+
+footer .foot-data
+{
+    padding-top: 25px;
+    font-size: .8rem;
+    border-right: 1px solid;
+    border-left: 1px solid;
+}
+
+footer .foot-data h2
+{
+    font-family: 'Gloria Hallelujah', cursive;
+    color: #e0d6d6;
+}
+
+footer .foot-data h2 span
+{
+    color: #ee0e0e;
+}
+
+footer .foot-data p
+{
+    color: #a59e9e;
+    text-transform: capitalize;
+    margin-bottom: 0;
+}
+
+footer .foot-data p span
+{
+    color: #bbb7b7;
+    font-weight: bold;
+}
+
+footer .cards
+{
+    text-align: center;
+    color: #a59e9e;
+}
+
+footer .cards ul
+{
+    list-style: none;
+    padding: 35px 0 24px 0;
+    margin-bottom: 15px;
+}
+
+footer .cards ul li
+{
+    display: inline-block;
+    margin-top: 15px;
+    font-size: 1.5rem;
+}
+
+footer .brand
+{
+    padding-bottom: 6px;
+    border-top: 1px solid ;
+}
+
+footer .brand ul
+{
+    list-style: none;
+    padding: 20px 5px 0 30px;
+    color: #bbb7b7;
+    text-transform: capitalize;
+    margin-bottom: 0;
+    line-height: 1.8;
+}
+
+footer .info
+{
+    color: #a59e9e;
+    border-right: 1px solid #252525;;
+}
+
+footer .info h6
+{
+    text-transform: uppercase;
+    padding-left: 47px;
+    margin: 30px 0 20px 0;
+    color: #FFF;
+}
+
+footer .info ul
+{
+    list-style: none;
+    padding-top: 10px;
+    width: 67%;
+    margin: 0 auto;
+    line-height: 1.7;
+    padding-left: 0;
+}
+
+footer .info ul li
+{
+    text-transform: capitalize;
+}
+
+.scrollTop
+{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    margin-bottom: 30px;
+    background: #CC444A;
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    cursor: pointer;
+    display: none;
+    padding-top: 13px;
+}
+
+/* ---------- > footer <---------- */
+
+/* ---------- > Media <---------- */
+
+@media (max-width:575px)
+{
+
+    header .top
+    {
+        font-size: .9rem;
+    }
+
+    header .head
+    {
+        padding-top: 0;
+        text-align: center;
+        margin-bottom: 5px;
+    }
+
+    header i.icon 
+    {
+        display: block;
+    }
+
+    header .head-nav
+    {
+        display: block;
+    }
+
+    header .head-nav h1
+    {
+        text-align: center;
+    }
+
+    header .head-nav .option
+    {
+        text-align: center;
+    }
+
+    header .head-nav nav ul
+    {
+        padding-top: 0;
+        text-align: unset;
+        padding-left: 10px;
+    }
+
+    header .head-nav nav ul a
+    {
+        text-decoration: none;
+    }
+
+    header .head-nav nav ul li
+    {
+        display: none;
+        margin-left: 0;
+        padding: 15px 0;
+        
+    }
+
+    header .head-nav select
+    {
+        margin: 15px;
+    }
+
+    header .title
+    {
+        margin-top: 25px;
+        text-align: center
+    }
+
+    header .title h2
+    {
+        font-size: 3rem;
+        color: #fff;
+        font-weight: unset;
+    }
+
+    header .title p
+    {
+        font-size: 2.5rem;
+    }
+
+    main .healthy .back-2
+    {
+        height: 300px;
+    }
+
+    main .healthy .fresh
+    {
+        position: relative;
+        bottom: 15;
+    }
+
+    main .healthy .fresh-2
+    {
+        height: 300px;
+    }
+
+    main .healthy .fresh-3
+    {
+        height: 300px;
+        top: 15;
+    }
+
+    main .letter form input
+    {
+        width: 80%;
+    }
+
+    .team-data .team-info
+    {
+        margin-bottom: 0;
+    }
+    .team .team-data
+    {
+        border-bottom: 1px solid #ddd8d8;
+        margin-bottom: 15px;
+        padding-bottom: 15px;
+    }
+
+    footer .info
+    {
+        border-top: 1px solid #313131;
+    }
+
+    footer .brand
+    {
+        padding-bottom: 0;
+    }
+
+    footer .info ul
+    {
+        padding-left: 15px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 768px)
+{
+    
+    header .top
+    {
+        text-align: center;
+    }
+
+    header .head
+    {
+        padding-top: 0;
+        text-align: center;
+        margin-bottom: 5px;
+    }
+
+    header i.icon 
+    {
+        display: block;
+    }
+
+    header .head-nav
+    {
+        display: block;
+    }
+
+    header .head-nav h1
+    {
+        text-align: center;
+    }
+
+    header .head-nav .option
+    {
+        text-align: center;
+    }
+
+    header .head-nav nav ul
+    {
+        padding-top: 0;
+        text-align: left;
+        padding-left: 10px;
+    }
+
+    header .head-nav nav ul li
+    {
+        display: none;
+        margin-left: 0;
+        padding: 15px 0;
+    }
+
+    header .head-nav select
+    {
+        margin: 15px;
+    }
+
+    header .head-nav .col-md-3
+    {
+        text-align: center;
+    }
+
+    header .title
+    {
+        margin-top: 25px;
+        text-align: center
+    }
+
+    header .title h2
+    {
+        font-size: 3rem;
+        color: #fff;
+        font-weight: unset;
+    }
+
+    header .title p
+    {
+        font-size: 2.5rem;
+    }
+
+    main .healthy .back-2
+    {
+        height: 300px;
+    }
+
+    main .healthy .fresh
+    {
+        position: relative;
+        bottom: 15;
+    }
+
+    main .healthy .fresh-2
+    {
+        height: 300px;
+    }
+
+    main .healthy .fresh-3
+    {
+        height: 300px;
+        top: 15;
+    }
+
+    main .letter form input
+    {
+        width: 80%;
+    }
+
+    .news .item-sale .product
+    {
+        overflow: hidden;
+        padding: 0 70px;
+    }
+
+    .team-data .team-info
+    {
+        margin-bottom: 0;
+    }
+    .team .team-data
+    {
+        border-bottom: 1px solid #ddd8d8;
+        margin-bottom: 15px;
+        padding-bottom: 15px;
+    }
+
+    footer .info
+    {
+        border-top: 1px solid #252525;
+        border-left: 1px solid #252525;
+    }
+
+    footer .brand
+    {
+        padding-bottom: 0;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 991px)
+{
+
+    header .head-nav
+    {
+        display: block;
+        overflow: hidden;
+    }
+
+    header .head-nav h1
+    {
+        float: left;
+        width: 25%;
+    }
+
+    header .head-nav nav
+    {
+        float: right;
+        width: 75%;
+    }
+
+    header .head-nav nav ul
+    {
+        padding-left: 0;
+        padding-top: 15px;
+    }
+
+    header .head-nav .option
+    {
+        display: inline-block;
+        margin-left: 10px;
+    }
+
+    header .title
+    {
+        margin-top: 25px;
+        text-align: center
+    }
+
+    header .title h2
+    {
+        color: #fff;
+        font-weight: unset;
+    }
+
+    header .head input
+    {
+        width: 60%;
+    }
+    .news .item-sale .product
+    {
+        padding: 0 0;
+    }
+
+    .news .item-sale .product button
+    {
+        width: 40%;
+        font-size: .7rem;
+        margin-left: 10px;
+    }
+
+    .news .item-sale .product img
+    {
+        float: right;
+        width: 50%;
+        padding-right: 10px;
+    }
+
+    .team .team-data .team-img
+    {
+        width: 61%;
+    }
+
+    .team .team-data .team-name
+    {
+        width: 30%;
+        padding-left: 0;
+    }
+}
+
+@media (min-width: 992px)
+{
+    header .head-nav nav ul
+    {
+        padding-left: 0;
+        padding-top: 15px;
+    }
+
+    header .head-nav nav ul li
+    {
+        margin-left: 15px;
+    }
+
+    header .head-nav select
+    {
+        margin-right: 0;
+    }
+}
+
+
+@keyframes move
+{
+    0%   {left:0px; top:0px;}
+    75%  {left:0px; top:10px;}
+    100% {left:0px; top:0px;}
+}
